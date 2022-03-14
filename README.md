@@ -1,1 +1,0 @@
-# AdamTaguirov.github.io
