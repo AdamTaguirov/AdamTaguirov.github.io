@@ -10,7 +10,7 @@ Everything I publish is meant for **educational purposes** or **community use** 
 
 ⚠️ **Disclaimer**: Never use my tools or code for malicious purposes.
 
-📫 Contact: adam@taguirov.com
+📫 Contact: adam@taguirov.com  
 🚫 I am not open to job opportunities at the moment.
 
 ⚠️ Important clarification
