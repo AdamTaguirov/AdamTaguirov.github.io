@@ -1,14 +1,18 @@
 # Adam TAGUIROV
-## Ingénieur en sécurité informatique
 
-I am a security researcher and I like reverse engineering, vulnerability research, and exploitation.
+## Cybersecurity engineer
 
-I like low-level development and making useful tools.
+I’m a cybersecurity engineer with a strong focus on anti-cybercrime expertise, reverse engineering, vulnerability research, and exploitation. I also enjoy low-level development and building practical tools for the community.
 
-On my repository you will find a lot of school projects and you might find some public tools I've written.
+I previously served as president of **Root-Me**, a leading cybersecurity learning platform in France. While I’m no longer active in the team, I hold an **honorary status** in recognition of my contributions.
 
-Please never use the tools or code I publish for malicious purposes. Everything I make is either for **educational purposes** or **community oriented**.
+Everything I publish is meant for **educational purposes** or **community use** only.
 
-If you want to contact me you can write an e-mail at: adam@taguirov.com.
+⚠️ **Disclaimer**: Never use my tools or code for malicious purposes.
 
-I am **not** open for job opportunities for now.
+📫 Contact: adam@taguirov.com
+🚫 I am not open to job opportunities at the moment.
+
+⚠️ Important clarification
+
+There is another person named **Adam Taguirov**, who lives in **Strasbourg**, and **he is not me**. Please do **not confuse us** — we are entirely unrelated.
