@@ -1,548 +1,130 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam TAGUIROV - Cybersecurity Expert</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
-        
-        :root {
-            --primary-cyan: #00ffff;
-            --secondary-green: #00ff41;
-            --accent-purple: #ff00ff;
-            --dark-bg: #0a0a0a;
-            --card-bg: #1a1a1a;
-            --text-primary: #ffffff;
-            --text-secondary: #b0b0b0;
-            --border-glow: #00ffff40;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'JetBrains Mono', monospace;
-            background: var(--dark-bg);
-            color: var(--text-primary);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        .header {
-            text-align: center;
-            padding: 60px 0;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-            position: relative;
-        }
-        
-        .header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: repeating-linear-gradient(
-                90deg,
-                transparent,
-                transparent 2px,
-                var(--border-glow) 2px,
-                var(--border-glow) 4px
-            );
-            opacity: 0.1;
-            animation: scan 3s linear infinite;
-        }
-        
-        @keyframes scan {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
-        }
-        
-        .name {
-            font-size: 3.5rem;
-            font-weight: 700;
-            color: var(--primary-cyan);
-            text-shadow: 0 0 20px var(--primary-cyan);
-            margin-bottom: 20px;
-            position: relative;
-        }
-        
-        .title {
-            font-size: 1.5rem;
-            color: var(--secondary-green);
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-        
-        .contact {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            flex-wrap: wrap;
-        }
-        
-        .contact a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            border: 1px solid var(--border-glow);
-            padding: 10px 20px;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .contact a:hover {
-            color: var(--primary-cyan);
-            border-color: var(--primary-cyan);
-            box-shadow: 0 0 20px var(--border-glow);
-            transform: translateY(-2px);
-        }
-        
-        .section {
-            margin: 60px 0;
-            padding: 40px;
-            background: var(--card-bg);
-            border: 1px solid var(--border-glow);
-            border-radius: 8px;
-            position: relative;
-        }
-        
-        .section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background: linear-gradient(90deg, var(--primary-cyan), var(--accent-purple), var(--secondary-green));
-        }
-        
-        .section-title {
-            font-size: 2rem;
-            color: var(--secondary-green);
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            position: relative;
-        }
-        
-        .section-title::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: -10px;
-            width: 50px;
-            height: 2px;
-            background: var(--primary-cyan);
-            box-shadow: 0 0 10px var(--primary-cyan);
-        }
-        
-        .about-text {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 20px;
-        }
-        
-        .experience-item {
-            margin-bottom: 40px;
-            padding: 25px;
-            background: rgba(0, 255, 255, 0.05);
-            border-left: 3px solid var(--primary-cyan);
-            border-radius: 4px;
-        }
-        
-        .job-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        
-        .job-title {
-            color: var(--primary-cyan);
-            font-weight: 500;
-            font-size: 1.2rem;
-        }
-        
-        .company {
-            color: var(--secondary-green);
-            font-weight: 400;
-        }
-        
-        .period {
-            color: var(--accent-purple);
-            font-size: 0.9rem;
-            white-space: nowrap;
-        }
-        
-        .job-description {
-            list-style: none;
-            padding-left: 0;
-        }
-        
-        .job-description li {
-            color: var(--text-secondary);
-            margin-bottom: 8px;
-            position: relative;
-            padding-left: 20px;
-        }
-        
-        .job-description li::before {
-            content: '▶';
-            position: absolute;
-            left: 0;
-            color: var(--primary-cyan);
-        }
-        
-        .project-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 25px;
-            padding: 20px;
-            background: rgba(255, 0, 255, 0.05);
-            border-left: 3px solid var(--accent-purple);
-            border-radius: 4px;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        
-        .project-name {
-            color: var(--accent-purple);
-            font-weight: 500;
-            font-size: 1.1rem;
-        }
-        
-        .project-link {
-            color: var(--secondary-green);
-            text-decoration: none;
-            font-size: 0.9rem;
-        }
-        
-        .project-link:hover {
-            color: var(--primary-cyan);
-        }
-        
-        .project-description {
-            width: 100%;
-            color: var(--text-secondary);
-            margin-top: 10px;
-        }
-        
-        .tech-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        
-        .tech-category {
-            padding: 20px;
-            background: rgba(0, 255, 65, 0.05);
-            border: 1px solid var(--secondary-green);
-            border-radius: 4px;
-        }
-        
-        .tech-title {
-            color: var(--secondary-green);
-            font-weight: 500;
-            margin-bottom: 10px;
-        }
-        
-                 .tech-list {
-             color: var(--text-secondary);
-         }
-         
-         .disclaimer {
-             margin-top: 40px;
-             padding: 25px;
-             background: rgba(255, 255, 255, 0.02);
-             border: 1px solid rgba(255, 255, 255, 0.1);
-             border-radius: 4px;
-         }
-         
-         .disclaimer::before {
-             background: linear-gradient(90deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
-         }
-         
-         .disclaimer-content {
-             text-align: center;
-         }
-         
-         .disclaimer-text {
-             color: var(--text-secondary);
-             font-size: 0.9rem;
-             margin-bottom: 10px;
-             opacity: 0.8;
-         }
-         
-         .disclaimer-text:last-child {
-             margin-bottom: 0;
-         }
-         
-         .education-item {
-            padding: 25px;
-            background: rgba(0, 255, 65, 0.05);
-            border-left: 3px solid var(--secondary-green);
-            border-radius: 4px;
-        }
-        
-        .degree {
-            color: var(--secondary-green);
-            font-weight: 500;
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-        }
-        
-        .school {
-            color: var(--primary-cyan);
-            margin-bottom: 15px;
-        }
-        
-        .coursework {
-            color: var(--text-secondary);
-        }
-        
-        .terminal-effect {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            background: repeating-linear-gradient(
-                0deg,
-                transparent,
-                transparent 2px,
-                rgba(0, 255, 255, 0.03) 2px,
-                rgba(0, 255, 255, 0.03) 4px
-            );
-            z-index: -1;
-        }
-        
-        @media (max-width: 768px) {
-            .name {
-                font-size: 2.5rem;
-            }
-            
-            .contact {
-                flex-direction: column;
-                align-items: center;
-                gap: 15px;
-            }
-            
-            .job-header {
-                flex-direction: column;
-                gap: 5px;
-            }
-            
-            .period {
-                align-self: flex-start;
-            }
-            
-            .section {
-                padding: 25px 20px;
-            }
-        }
-    </style>
+    <title>Adam TAGUIROV - Cyber Professional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="terminal-effect"></div>
-    
-    <header class="header">
-        <div class="container">
-            <h1 class="name">ADAM TAGUIROV</h1>
-            <p class="title">Cybersecurity Expert & Malware Specialist</p>
-            <div class="contact">
-                <a href="mailto:adam@taguirov.com">adam@taguirov.com</a>
-                <a href="https://linkedin.com/in/pwn" target="_blank">LinkedIn/pwn</a>
+    <div class="container">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="btn red"></span>
+                    <span class="btn yellow"></span>
+                    <span class="btn green"></span>
+                </div>
+                <span class="terminal-title">adam@cybersec:~$</span>
+            </div>
+            
+            <div class="business-card">
+                <div class="work-status" id="workStatus">
+                    <span class="work-label">open to work:</span>
+                    <span class="work-value" id="workValue">no</span>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">adam@taguirov.com</div>
+                    <div class="contact-item">linkedin.com/in/pwn</div>
+                </div>
+                
+                <div class="photo-section">
+                    <div class="photo-placeholder">
+                        <span>[PHOTO]</span>
+                    </div>
+                </div>
+                
+                <div class="main-info">
+                    <h1 class="name">Adam TAGUIROV</h1>
+                    <p class="title">Cyber Security Professional</p>
+                    <p class="education">Master's Degree (M.Sc)</p>
+                    <p class="experience">7+ Years of Experience</p>
+                </div>
+                
+                <div class="experience-section">
+                    <div class="job current">
+                        <div class="company-info">
+                            <div class="logo-placeholder europol">
+                                <span>[EUROPOL LOGO]</span>
+                            </div>
+                            <div class="job-details">
+                                <h3>Malware specialist</h3>
+                                <p>Europol</p>
+                                <span class="status active">● ACTIVE</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="job previous">
+                        <div class="company-info">
+                            <div class="logo-placeholder pj">
+                                <span>[PJ LOGO]</span>
+                            </div>
+                            <div class="job-details">
+                                <h3>Cybercrime specialist</h3>
+                                <p>Police Judiciaire</p>
+                                <span class="status">● FORMER</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-section">
+                    <h3>Expertise</h3>
+                    <div class="tags">
+                        <span class="tag">Reverse Engineering</span>
+                        <span class="tag">Malware Analysis</span>
+                        <span class="tag">Cyber Intelligence</span>
+                        <span class="tag">Vulnerability Research</span>
+                    </div>
+                </div>
+                
+                <div class="bottom-sections">
+                    <div class="earlier-experience">
+                        <h4>Earlier Experience</h4>
+                        <div class="company-list">
+                            <div class="company-item">
+                                <div class="logo-placeholder-small quarkslab">
+                                    <span>[QL]</span>
+                                </div>
+                                <span class="company">QuarksLab</span>
+                            </div>
+                            <div class="company-item">
+                                <div class="logo-placeholder-small orange">
+                                    <span>[OC]</span>
+                                </div>
+                                <span class="company">Orange Cyberdefense</span>
+                            </div>
+                            <div class="company-item">
+                                <div class="logo-placeholder-small digital">
+                                    <span>[DS]</span>
+                                </div>
+                                <span class="company">Digital Security</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="annex-activities">
+                        <h4>Additional Activities</h4>
+                        <div class="activity-list">
+                            <span class="activity">Former Root-Me President</span>
+                            <span class="activity">CEPOL Expert Trainer</span>
+                            <span class="activity">Polkadot Blockchain Validator</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer">
+                    <p class="glitch" data-text="CLASSIFIED CLEARANCE LEVEL: AUTHORIZED">
+                        CLASSIFIED CLEARANCE LEVEL: AUTHORIZED
+                    </p>
+                </div>
             </div>
         </div>
-    </header>
-
-    <main class="container">
-        <section class="section">
-            <h2 class="section-title">About Me</h2>
-            <p class="about-text">
-                Cybersecurity engineer with deep expertise in <strong>malware analysis</strong>, 
-                <strong>reverse engineering</strong>, and <strong>digital forensics</strong>.
-            </p>
-            <p class="about-text">
-                Fluent in English and French.
-            </p>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Experience</h2>
-            
-            <div class="experience-item">
-                <div class="job-header">
-                    <div>
-                        <div class="job-title">Malware Specialist</div>
-                        <div class="company">Europol — The Hague, NL</div>
-                    </div>
-                    <div class="period">May 2025 – Present</div>
-                </div>
-                <ul class="job-description">
-                    <li>Leading the EMAS project (Europol Malware Analysis Solution) and the NoMoreRansom initiative</li>
-                    <li>Providing investigative support through malware reverse engineering and ransomware decryption development</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-header">
-                    <div>
-                        <div class="job-title">Cybercrime Expert Engineer</div>
-                        <div class="company">National Police — Nanterre, FR</div>
-                    </div>
-                    <div class="period">Apr 2023 – May 2025</div>
-                </div>
-                <ul class="job-description">
-                    <li>Led cybercrime investigations and provided technical expertise in malware analysis, digital forensics, and incident response</li>
-                    <li>Developed decryption tools for three known ransomware families and successfully recovered data for victims</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-header">
-                    <div>
-                        <div class="job-title">Cybersecurity Engineer</div>
-                        <div class="company">Quarkslab — Paris, FR</div>
-                    </div>
-                    <div class="period">Apr 2022 – Apr 2023</div>
-                </div>
-                <ul class="job-description">
-                    <li>Presented a public conference on the exploitation of browser JavaScript engines</li>
-                    <li>Discovered vulnerabilities in the macOS kernel and WebKit browser engine</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-header">
-                    <div>
-                        <div class="job-title">Cybersecurity Engineer</div>
-                        <div class="company">Orange Cyberdefense — Nanterre, FR</div>
-                    </div>
-                    <div class="period">Dec 2019 – Apr 2022</div>
-                </div>
-                <ul class="job-description">
-                    <li>Led the development of a modern and stealthy malware analysis sandbox</li>
-                    <li>Reverse engineered malwares to improve the internal anti-virus solutions</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-header">
-                    <div>
-                        <div class="job-title">Cybersecurity Engineer</div>
-                        <div class="company">Digital Security — Paris, FR</div>
-                    </div>
-                    <div class="period">Sep 2017 – Mar 2019</div>
-                </div>
-                <ul class="job-description">
-                    <li>Developed a modern and undetectable malware packer for pentesting purposes</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Education</h2>
-            <div class="education-item">
-                <div class="job-header">
-                    <div>
-                        <div class="degree">Master's Degree in Computer Science</div>
-                        <div class="school">42 School and Paris YNOV Campus</div>
-                    </div>
-                    <div class="period">Sep 2016 – Sep 2020</div>
-                </div>
-                <div class="coursework">
-                    <strong>Coursework:</strong> Cybersecurity, System and network administration, Computer architecture, Development and algorithms
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Projects</h2>
-            
-            <div class="project-item">
-                <div>
-                    <div class="project-name">Root-Me</div>
-                    <div class="project-description">
-                        Served as administrator for 8 years and former President of Root-Me, a major cybersecurity education platform.
-                    </div>
-                </div>
-                <a href="https://root-me.org" target="_blank" class="project-link">root-me.org</a>
-            </div>
-
-            <div class="project-item">
-                <div>
-                    <div class="project-name">Blockchain Validator</div>
-                    <div class="project-description">
-                        Active validator on the Polkadot network, managing secure infrastructure and monitoring node performance.
-                    </div>
-                </div>
-                <a href="https://polkadot.network" target="_blank" class="project-link">polkadot.network</a>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Technologies</h2>
-            <div class="tech-grid">
-                <div class="tech-category">
-                    <div class="tech-title">Languages</div>
-                    <div class="tech-list">C, Python, Swift</div>
-                </div>
-                <div class="tech-category">
-                    <div class="tech-title">Tools</div>
-                    <div class="tech-list">IDA Pro, Ghidra</div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section disclaimer">
-            <div class="disclaimer-content">
-                <p class="disclaimer-text">
-                    <strong>Note:</strong> I am not currently open to job opportunities.
-                </p>
-                <p class="disclaimer-text">
-                    There is another person named Adam Taguirov who lives in Strasbourg, France. 
-                    He is not me — we are entirely unrelated. Please do not confuse us.
-                </p>
-            </div>
-        </section>
-    </main>
-
-    <script>
-        // Simple typing effect for the terminal aesthetic
-        document.addEventListener('DOMContentLoaded', function() {
-            const nameElement = document.querySelector('.name');
-            const originalText = nameElement.textContent;
-            nameElement.textContent = '';
-            
-            let i = 0;
-            function typeWriter() {
-                if (i < originalText.length) {
-                    nameElement.textContent += originalText.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, 100);
-                }
-            }
-            
-            setTimeout(typeWriter, 500);
-        });
-    </script>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html> 
