@@ -747,19 +747,12 @@ body {
     position: absolute;
     top: 8px;
     right: 8px;
-    cursor: pointer;
     padding: 4px 8px;
     border: 1px solid #333;
     border-radius: 4px;
     background: #0f0f0f;
-    transition: all 0.3s ease;
     user-select: none;
     z-index: 10;
-}
-
-.work-status:hover {
-    border-color: #00ff41;
-    background: #1a1a1a;
 }
 
 .work-label {

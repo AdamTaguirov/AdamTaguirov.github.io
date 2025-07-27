@@ -129,19 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setDigitalSecurityLogo('digital_security_logo.png');
     setPhoto('me.png');
 
-    // Add work status toggle functionality
-    const workStatus = document.getElementById('workStatus');
-    const workValue = document.getElementById('workValue');
-    
-    workStatus.addEventListener('click', function() {
-        if (workValue.textContent === 'no') {
-            workValue.textContent = 'yes';
-            workValue.classList.add('available');
-        } else {
-            workValue.textContent = 'no';
-            workValue.classList.remove('available');
-        }
-    });
+    // Work status is now just a display element, not interactive
 
 
 
