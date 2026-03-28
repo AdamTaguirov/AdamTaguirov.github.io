@@ -1,0 +1,31 @@
+{
+  "tabs": {
+    "cv": "CV",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "sections": {
+    "experience": "Expérience Professionnelle",
+    "education": "Formation",
+    "certificates": "Certificats",
+    "skills": "Compétences Techniques",
+    "projects": "Projets",
+    "conferences": "Conférences & Formations",
+    "contact": "Me Contacter",
+    "social": "Réseaux Sociaux"
+  },
+  "labels": {
+    "present": "Présent",
+    "yearsExperience": "Années d'Expérience",
+    "openToWork": "Disponible",
+    "notOpenToWork": "Non disponible",
+    "viewSlides": "Voir les Slides",
+    "viewVideo": "Voir la Vidéo",
+    "visitProject": "Visiter",
+    "current": "Actuel",
+    "downloadCv": "Télécharger le CV"
+  },
+  "language": {
+    "switchLabel": "EN"
+  }
+}

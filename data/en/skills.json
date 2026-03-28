@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "Core Expertise",
+      "skills": [
+        "Reverse Engineering",
+        "Malware Analysis",
+        "Cyber Intelligence",
+        "Vulnerability Research",
+        "Digital Forensics"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "skills": [
+        "PLACEHOLDER - e.g. IDA Pro",
+        "PLACEHOLDER - e.g. Ghidra",
+        "PLACEHOLDER - e.g. x64dbg",
+        "PLACEHOLDER - e.g. Wireshark",
+        "PLACEHOLDER - e.g. YARA"
+      ]
+    },
+    {
+      "name": "Programming",
+      "skills": [
+        "PLACEHOLDER - e.g. Python",
+        "PLACEHOLDER - e.g. C/C++",
+        "PLACEHOLDER - e.g. Assembly",
+        "PLACEHOLDER - e.g. Bash"
+      ]
+    },
+    {
+      "name": "Other",
+      "skills": [
+        "CEPOL Expert Trainer",
+        "Polkadot Blockchain Validator"
+      ]
+    }
+  ]
+}

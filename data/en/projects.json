@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "name": "Root-Me",
+      "type": "community",
+      "description": "Former President of Root-Me, a leading French cybersecurity challenge platform with thousands of active users.",
+      "url": "https://www.root-me.org",
+      "image": null,
+      "tags": ["CTF", "Community", "Education"]
+    },
+    {
+      "name": "PLACEHOLDER - Project Name",
+      "type": "blog",
+      "description": "PLACEHOLDER - Describe your project here.",
+      "url": "PLACEHOLDER - https://...",
+      "image": null,
+      "tags": ["PLACEHOLDER"]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "experiences": [
+    {
+      "id": "europol",
+      "role": "Spécialiste en analyse forensique de logiciels malveillants",
+      "company": "Europol",
+      "location": "La Haye, Pays-Bas",
+      "startDate": "2025-05",
+      "endDate": "2026-03",
+      "current": true,
+      "logo": "assets/img/logos/europol.png",
+      "description": "Ingénieur spécialiste au sein de la Cyber Intelligence Team, centre EC3, spécialisé en analyse avancée de logiciels malveillants.",
+      "highlights": [
+        "Responsable technique d’EMAS (Europol Malware Analysis Solution), plateforme européenne d’analyse de malware à grande échelle utilisée par les forces de l’ordre",
+        "Rétro-ingénierie avancée de logiciels malveillants pour analyser les techniques d’attaque et extraire les configurations dans le cadre de dossiers judiciaires internationaux",
+        "Recherche de vulnérabilités cryptographiques ou logiques et développement d’outils de déchiffrement de rançongiciels (initiative NoMoreRansom)",
+        "Conception d’outils d’analyse automatisée (tri, unpacking, analyse comportementale)."
+      ],
+      "tags": ["Analyse de logiciels malveillants", "Rétro-ingénierie", "Renseignement cyber", "Enquêtes judiciaires"]
+    },
+    {
+      "id": "pj",
+      "role": "Ingénieur expert en cybercriminalité",
+      "company": "Police Judiciaire",
+      "location": "Nanterre, France",
+      "startDate": "2023-04",
+      "endDate": "2025-05",
+      "current": false,
+      "logo": "assets/img/logos/pj.jpg",
+      "description": "Ingénieur en cybercriminalité au sein du groupe d'appuis spécialisé cyber, du pôle des cyber-enquêtes, de l'office anti-cybercriminalité, spécialisé en analyse forensique, et analyse de logiciels malveillants.",
+      "highlights": [
+        "Rétro-ingénierie approfondie de familles de rançongiciels. Recherche et analyse de vulnérabilités cryptographiques ou logiques dans les souches",
+        "Conception et développement d’outils de déchiffrement permettant la récupération de données pour les victimes",
+        "Expertise en analyse de logiciels malveillants, en analyse forensique et réponse à incident sur plus de 30 affaires complexes"
+      ],
+      "tags": ["Analyse de logiciels malveillants", "Rétro-ingénierie", "Enquêtes judiciaires"]
+    },
+    {
+      "id": "quarkslab",
+      "role": "Chercheur en cybersécurité",
+      "company": "QuarksLab",
+      "location": "Paris, France",
+      "startDate": "2022-04",
+      "endDate": "2023-04",
+      "current": false,
+      "logo": "assets/img/logos/quarkslab.jpg",
+      "description": "Ingénieur en cybersécurité au sein de l'équipe mobile, du pôle Recherche et Développement, spécialisé en recherche de vulnérabilités dans l'univers Apple.",
+      "highlights": [
+          "Recherche de vulnérabilités sur noyau macOS, navigateurs (WebKit, Chrome) et applications iOS et Android",
+          "Présentation publique sur l’exploitation de moteurs JavaScript",
+          "Fuzzing, rétro-ingénierie, analyse et développement d’exploits",
+          "BADGE Reverse Engineering (ESIEA)"
+      ],
+      "tags": ["Recherche de vulnérabilités", "Rétro-ingénierie"]
+    },
+    {
+      "id": "orange",
+      "role": "Ingénieur en cybersécurité",
+      "company": "Orange Cyberdefense",
+      "location": "Nanterre, France",
+      "startDate": "2019-12",
+      "endDate": "2022-04",
+      "current": false,
+      "logo": "assets/img/logos/orange.png",
+      "description": "Ingénieur en cybersécurité au sein de l'équipe P2A, du pôle Recherche et Développement de produit, spécialisé dans le développement de sandbox d'analyse antivirale et rétro-ingénierie de logiciels malveillants.",
+      "highlights": [
+          "Conception et développement d’une sandbox pour logiciels malveillants au niveau hyperviseur, furtive et résistante aux techniques d’évasion",
+          "Analyse de logiciels malveillants à grande échelle (détection, désobfuscation, comportement)",
+          "Encadrement technique d’une petite équipe de recherche"
+      ],
+      "tags": ["Développement de produit", "Analyse de logiciels malveillants", "Rétro-ingénierie", "Management"]
+    },
+    {
+      "id": "digital-security",
+      "role": "Ingénieur en cybersécurité",
+      "company": "Digital Security",
+      "location": "Paris, France",
+      "startDate": "2017-09",
+      "endDate": "2019-03",
+      "current": false,
+      "logo": "assets/img/logos/digital-security.png",
+      "description": "Ingénieur en cybersécurité au sein de l'équipe de tests d'intrusions, spécialisé en rétro-ingénierie et recherche de vulnérabilités.",
+      "highlights": [
+          "Développement d’outils offensifs et de protections binaires (packers) bas niveau pour des missions de tests d'intrusions",
+          "Missions de tests d'intrusions internes et externes",
+          "Recherche de vulnérabilités sur objets connectés",
+          "Rétro-ingénierie matérielle de composants"
+      ],
+      "tags": ["Rétro-ingénierie", "Recherche de vulnérabilités", "Développement"]
+    }
+  ]
+}

@@ -3,130 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam TAGUIROV - Cyber Professional</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Adam TAGUIROV - Cyber Security Professional</title>
+    <meta name="description" content="Portfolio of Adam Taguirov, Cyber Security Professional specializing in malware analysis and reverse engineering.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="terminal-window">
-            <div class="terminal-header">
-                <div class="terminal-buttons">
-                    <span class="btn red"></span>
-                    <span class="btn yellow"></span>
-                    <span class="btn green"></span>
-                </div>
-                <span class="terminal-title">adam@cybersec:~$</span>
-            </div>
-            
-            <div class="business-card">
-                <div class="work-status" id="workStatus">
-                    <span class="work-label">open to work:</span>
-                    <span class="work-value" id="workValue">no</span>
-                </div>
-                
-                <div class="contact-info">
-                    <div class="contact-item">adam@taguirov.com</div>
-                    <div class="contact-item">linkedin.com/in/pwn</div>
-                </div>
-                
-                <div class="photo-section">
-                    <div class="photo-placeholder">
-                        <span>[PHOTO]</span>
-                    </div>
-                </div>
-                
-                <div class="main-info">
-                    <h1 class="name">Adam TAGUIROV</h1>
-                    <p class="title">Cyber Security Professional</p>
-                    <p class="education">Master's Degree (M.Sc)</p>
-                    <p class="experience">7+ Years of Experience</p>
-                </div>
-                
-                <div class="experience-section">
-                    <div class="job current">
-                        <div class="company-info">
-                            <div class="logo-placeholder europol">
-                                <span>[EUROPOL LOGO]</span>
-                            </div>
-                            <div class="job-details">
-                                <h3>Malware specialist</h3>
-                                <p>Europol</p>
-                                <span class="status active">● ACTIVE</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="job previous">
-                        <div class="company-info">
-                            <div class="logo-placeholder pj">
-                                <span>[PJ LOGO]</span>
-                            </div>
-                            <div class="job-details">
-                                <h3>Cybercrime specialist</h3>
-                                <p>Police Judiciaire</p>
-                                <span class="status">● FORMER</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="skills-section">
-                    <h3>Expertise</h3>
-                    <div class="tags">
-                        <span class="tag">Reverse Engineering</span>
-                        <span class="tag">Malware Analysis</span>
-                        <span class="tag">Cyber Intelligence</span>
-                        <span class="tag">Vulnerability Research</span>
-                    </div>
-                </div>
-                
-                <div class="bottom-sections">
-                    <div class="earlier-experience">
-                        <h4>Earlier Experience</h4>
-                        <div class="company-list">
-                            <div class="company-item">
-                                <div class="logo-placeholder-small quarkslab">
-                                    <span>[QL]</span>
-                                </div>
-                                <span class="company">QuarksLab</span>
-                            </div>
-                            <div class="company-item">
-                                <div class="logo-placeholder-small orange">
-                                    <span>[OC]</span>
-                                </div>
-                                <span class="company">Orange Cyberdefense</span>
-                            </div>
-                            <div class="company-item">
-                                <div class="logo-placeholder-small digital">
-                                    <span>[DS]</span>
-                                </div>
-                                <span class="company">Digital Security</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="annex-activities">
-                        <h4>Additional Activities</h4>
-                        <div class="activity-list">
-                            <span class="activity">Former Root-Me President</span>
-                            <span class="activity">CEPOL Expert Trainer</span>
-                            <span class="activity">Polkadot Blockchain Validator</span>
-                            <span class="activity">Former DarkOrbit Moderator</span>
-                            <span class="activity">Former Nostale Game Master</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="footer">
-                    <p class="glitch" data-text="CONNECTION SECURE">
-                        CONNECTION SECURE
-                    </p>
-                </div>
-            </div>
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+            <a href="#" class="logo-text" id="logoText">Adam TAGUIROV</a>
+            <nav class="main-nav" id="mainNav" role="tablist"></nav>
+            <button class="lang-toggle" id="langToggle" aria-label="Switch language"></button>
         </div>
-    </div>
-    
-    <script src="script.js"></script>
+    </header>
+
+    <main class="content" id="appContent">
+        <div class="loading">
+            <div class="loading-bar"></div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 Adam Taguirov</p>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/app.js"></script>
 </body>
-</html> 
+</html>

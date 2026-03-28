@@ -1,0 +1,35 @@
+{
+  "categories": [
+    {
+      "name": "Expertise Principale",
+      "skills": [
+        "Rétro-ingénierie",
+        "Analyse de logiciels malveillants",
+        "Recherche de vulnérabilités",
+        "Investigation numérique"
+      ]
+    },
+    {
+      "name": "Outils",
+      "skills": [
+        "IDA Pro",
+        "Ghidra",
+        "WinDbg",
+        "LLDB",
+        "Frida",
+        "x64dbg",
+        "YARA",
+        "MISAM"
+      ]
+    },
+    {
+      "name": "Programmation",
+      "skills": [
+        "C",
+        "C++",
+        "Python",
+        "Swift"
+      ]
+    }
+  ]
+}

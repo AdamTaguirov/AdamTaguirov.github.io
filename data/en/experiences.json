@@ -1,0 +1,74 @@
+{
+  "experiences": [
+    {
+      "id": "europol",
+      "role": "Malware Specialist",
+      "company": "Europol",
+      "location": "The Hague, Netherlands",
+      "startDate": "2023-01",
+      "endDate": null,
+      "current": true,
+      "logo": "assets/img/logos/europol.png",
+      "description": "PLACEHOLDER - Describe your role and responsibilities at Europol.",
+      "highlights": [
+        "PLACEHOLDER - Key achievement or responsibility 1",
+        "PLACEHOLDER - Key achievement or responsibility 2"
+      ],
+      "tags": ["Malware Analysis", "Reverse Engineering", "Threat Intelligence"]
+    },
+    {
+      "id": "pj",
+      "role": "Cybercrime Specialist",
+      "company": "Police Judiciaire",
+      "location": "Paris, France",
+      "startDate": "2021-01",
+      "endDate": "2022-12",
+      "current": false,
+      "logo": "assets/img/logos/pj.jpg",
+      "description": "PLACEHOLDER - Describe your role and responsibilities at Police Judiciaire.",
+      "highlights": [
+        "PLACEHOLDER - Key achievement or responsibility 1"
+      ],
+      "tags": ["Digital Forensics", "Cybercrime Investigation"]
+    },
+    {
+      "id": "quarkslab",
+      "role": "PLACEHOLDER - Your Role",
+      "company": "QuarksLab",
+      "location": "Paris, France",
+      "startDate": "2020-01",
+      "endDate": "2020-12",
+      "current": false,
+      "logo": "assets/img/logos/quarkslab.jpg",
+      "description": "PLACEHOLDER - Describe your role and responsibilities at QuarksLab.",
+      "highlights": [],
+      "tags": ["Vulnerability Research", "Reverse Engineering"]
+    },
+    {
+      "id": "orange",
+      "role": "PLACEHOLDER - Your Role",
+      "company": "Orange Cyberdefense",
+      "location": "Paris, France",
+      "startDate": "2019-01",
+      "endDate": "2019-12",
+      "current": false,
+      "logo": "assets/img/logos/orange.png",
+      "description": "PLACEHOLDER - Describe your role and responsibilities at Orange Cyberdefense.",
+      "highlights": [],
+      "tags": ["Cybersecurity"]
+    },
+    {
+      "id": "digital-security",
+      "role": "PLACEHOLDER - Your Role",
+      "company": "Digital Security",
+      "location": "Paris, France",
+      "startDate": "2018-01",
+      "endDate": "2018-12",
+      "current": false,
+      "logo": "assets/img/logos/digital-security.png",
+      "description": "PLACEHOLDER - Describe your role and responsibilities at Digital Security.",
+      "highlights": [],
+      "tags": ["Cybersecurity"]
+    }
+  ]
+}

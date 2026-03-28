@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "name": "Root-Me",
+      "type": "community",
+      "description": "Administrateur et président de Root-Me, plateforme française de référence en challenges de cybersécurité avec des centaines de milliers d'utilisateurs actifs. Gestion de l'association, recrutement et management de plus de 40 membres du staff bénévoles, organisation internes et création des équipes de modération, QA et testeurs. Servi pendant plus de 8 ans, désormais président d'honneur.",
+      "url": "https://www.root-me.org",
+      "image": "assets/img/logos/rootme.png",
+      "tags": ["Management", "Cybersécurité", "E-learning"]
+    },
+    {
+      "name": "Blog personnel",
+      "type": "blog",
+      "description": "PLACEHOLDER - Décrivez votre projet ici.",
+      "url": "PLACEHOLDER - https://...",
+      "image": null,
+      "tags": ["PLACEHOLDER"]
+    }
+  ]
+}

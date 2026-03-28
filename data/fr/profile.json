@@ -1,0 +1,10 @@
+{
+  "name": "Adam TAGUIROV",
+  "title": "Ingénieur en cybersécurité",
+  "subtitle": "Rétro-ingénierie et recherche de vulnérabilité",
+  "yearsOfExperience": "7+",
+  "degree": "Master (BAC+5)",
+  "photo": "assets/img/me.png",
+  "openToWork": true,
+  "cvPdf": "assets/CV_FR.pdf"
+}

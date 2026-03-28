@@ -1,0 +1,11 @@
+{
+  "certificates": [
+    {
+      "name": "PLACEHOLDER - Certificate Name (e.g. GREM, OSCP)",
+      "issuer": "PLACEHOLDER - Issuing Organization",
+      "date": "2023",
+      "url": null,
+      "credentialId": null
+    }
+  ]
+}

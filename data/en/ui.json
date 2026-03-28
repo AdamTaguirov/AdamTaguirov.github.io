@@ -1,0 +1,31 @@
+{
+  "tabs": {
+    "cv": "CV",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "sections": {
+    "experience": "Professional Experience",
+    "education": "Education",
+    "certificates": "Certificates",
+    "skills": "Technical Skills",
+    "projects": "Projects",
+    "conferences": "Conferences & Talks",
+    "contact": "Get in Touch",
+    "social": "Social Links"
+  },
+  "labels": {
+    "present": "Present",
+    "yearsExperience": "Years of Experience",
+    "openToWork": "Open to work",
+    "notOpenToWork": "Not open to work",
+    "viewSlides": "View Slides",
+    "viewVideo": "Watch Video",
+    "visitProject": "Visit",
+    "current": "Current",
+    "downloadCv": "Download CV"
+  },
+  "language": {
+    "switchLabel": "FR"
+  }
+}

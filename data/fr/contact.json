@@ -1,0 +1,17 @@
+{
+  "email": "adam@taguirov.com",
+  "social": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/pwn",
+      "icon": "linkedin",
+      "label": "linkedin.com/in/pwn"
+    },
+    {
+      "platform": "GitHub",
+      "url": "PLACEHOLDER - https://github.com/...",
+      "icon": "github",
+      "label": "PLACEHOLDER"
+    }
+  ]
+}

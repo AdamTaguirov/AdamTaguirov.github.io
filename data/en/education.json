@@ -1,0 +1,20 @@
+{
+  "education": [
+    {
+      "degree": "Master of Science (M.Sc) in PLACEHOLDER",
+      "institution": "PLACEHOLDER - University Name",
+      "location": "PLACEHOLDER - City, Country",
+      "startYear": 2016,
+      "endYear": 2018,
+      "description": "PLACEHOLDER - Optional description, specialization, or thesis title."
+    },
+    {
+      "degree": "Bachelor's Degree in PLACEHOLDER",
+      "institution": "PLACEHOLDER - University Name",
+      "location": "PLACEHOLDER - City, Country",
+      "startYear": 2013,
+      "endYear": 2016,
+      "description": null
+    }
+  ]
+}

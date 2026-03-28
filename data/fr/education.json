@@ -1,0 +1,22 @@
+{
+  "education": [
+    {
+      "degree": "Master (BAC+5) en sécurité des systèmes d'information",
+      "institution": "YNOV Campus et École 42",
+      "location": "Paris, France",
+      "startYear": 2016,
+      "endYear": 2020,
+      "description": "Cybersécurité, systèmes d’exploitation, architecture des ordinateurs, algorithmes, administration systèmes et réseaux.",
+      "logo": "assets/img/logos/ynov.jpeg"
+    },
+    {
+      "degree": "BADGE Reverse Engineering",
+      "institution": "ESIEA",
+      "location": "Paris, France",
+      "startYear": 2022,
+      "endYear": 2022,
+      "description": "Programme certifiant labellisé par la Conférence des Grandes Écoles (CGE), spécialisé en rétro-ingénierie et analyse de logiciels malveillants.",
+      "logo": "assets/img/logos/esiea.jpeg"
+    }
+  ]
+}

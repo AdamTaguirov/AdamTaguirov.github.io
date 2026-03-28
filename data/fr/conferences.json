@@ -1,0 +1,16 @@
+{
+  "conferences": [
+    {
+      "title": "PLACEHOLDER - Titre de la Conférence/Formation",
+      "event": "PLACEHOLDER - Nom de l'Événement",
+      "date": "2024-06",
+      "location": "PLACEHOLDER - Ville, Pays",
+      "type": "talk",
+      "description": "PLACEHOLDER - Brève description du contenu de votre intervention ou formation.",
+      "photo": null,
+      "slidesUrl": null,
+      "videoUrl": null,
+      "tags": ["PLACEHOLDER"]
+    }
+  ]
+}
