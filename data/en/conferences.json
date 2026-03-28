@@ -1,17 +1,64 @@
 {
   "conferences": [
     {
-      "role": "Speaker",
-      "title": "PLACEHOLDER - Talk/Training Title",
-      "event": "PLACEHOLDER - Conference or Event Name",
-      "date": "2024-06",
-      "location": "PLACEHOLDER - City, Country",
-
-      "description": "PLACEHOLDER - Brief description of your talk or training content.",
-      "photo": null,
+      "role": "Trainer",
+      "title": "Malware Analysis Training",
+      "event": "OFAC International Ransomware Training Session",
+      "date": "2025-05",
+      "location": "Paris, France",
+      "description": "Design and delivery of a technical ransomware analysis training for police officers from several European countries, as part of a CEPOL-funded programme. The session covered malware detection, static and dynamic analysis, as well as identification of encryption mechanisms and remediation strategies.",
+      "photo": "assets/img/conferences/ofac.jpeg",
       "slidesUrl": null,
       "videoUrl": null,
-      "tags": ["PLACEHOLDER"]
+      "tags": ["Law Enforcement", "Training", "Malware Analysis"]
+    },
+    {
+      "role": "Speaker",
+      "title": "JavaScript Engine Exploitation",
+      "event": "Quarks in the Shell",
+      "date": "2023-04",
+      "location": "Paris, France",
+      "description": "Presentation of exploitation methodologies for modern JavaScript engines, focusing on V8 (Chrome) and JavaScriptCore (Safari). The session covers the memory layout of JavaScript objects, fundamental exploitation primitives (addrof, fakeobj), their evolution into advanced primitives (arbitrary read/write), and their implementation in concrete exploit chains. Particular attention is given to the iOS ecosystem and WebKit security mechanisms, with an analysis of bypass techniques.",
+      "photo": "assets/img/conferences/quarkslab.png",
+      "slidesUrl": null,
+      "videoUrl": "https://youtu.be/VaaXB8mrtL0?si=X0SJjft1TYJ1Z0xS",
+      "tags": ["Vulnerability Research", "Conference", "Browser Exploitation"]
+    },
+    {
+      "role": "Trainer",
+      "title": "Malware Analysis Training",
+      "event": "International Cooperation with South Africa",
+      "date": "2024-05",
+      "location": "Pretoria, South Africa",
+      "description": "Design and delivery of a technical ransomware analysis training for South African police officers, as part of an international cooperation between France and South Africa. The session covered malware detection, static and dynamic analysis, as well as identification of encryption mechanisms and remediation strategies.",
+      "photo": "assets/img/conferences/afriquedusud.jpg",
+      "slidesUrl": null,
+      "videoUrl": null,
+      "tags": ["Law Enforcement", "Training", "Malware Analysis"]
+    },
+    {
+      "role": "Trainer",
+      "title": "Lawful Decryption – Train the Trainer",
+      "event": "CEPOL Training on Lawful Decryption",
+      "date": "2025-04",
+      "location": "Budapest, Hungary",
+      "description": "Train the Trainer programme organised by CEPOL in cooperation with ECTEG, aimed at preparing law enforcement specialists to deliver national training on lawful decryption. The session covered both the technical aspects of decryption within a legal framework (eDecrypt, Decrypt Advanced) and the pedagogical methods for transferring these skills to investigators.",
+      "photo": "assets/img/conferences/cepol.jpg",
+      "slidesUrl": null,
+      "videoUrl": null,
+      "tags": ["Law Enforcement", "Training", "Cryptography", "Lawful Decryption"]
+    },
+    {
+      "role": "Speaker",
+      "title": "Cybercrime Conference",
+      "event": "Science Festival at the National Police Museum",
+      "date": "2024-10",
+      "location": "Paris, France",
+      "description": "Public conference on cybercrime organised as part of the Science Festival at the Paris Police Prefecture Museum. Presentation of the main forms of digital crime (fraud, identity theft, data breaches, scams, malware distribution) as well as the methods and mechanisms implemented by investigation services to detect and combat them. The talk aimed to raise public awareness of current cybercrime challenges and the operational responses provided by the police.",
+      "photo": "assets/img/conferences/musee.jpg",
+      "slidesUrl": null,
+      "videoUrl": null,
+      "tags": ["Awareness", "Conference", "General Public", "Cybercrime"]
     }
   ]
 }

@@ -1,11 +1,28 @@
 {
   "certificates": [
     {
-      "name": "PLACEHOLDER - Certificate Name (e.g. GREM, OSCP)",
-      "issuer": "PLACEHOLDER - Issuing Organization",
+      "name": "Advanced Decryption",
+      "issuer": "European Union Agency for Law Enforcement Training (CEPOL)",
       "date": "2023",
       "url": null,
-      "credentialId": null
+      "credentialId": "031/2023",
+      "logo": "assets/img/logos/cepol.jpeg"
+    },
+    {
+      "name": "Reverse Engineering 101",
+      "issuer": "Kaspersky",
+      "date": "2023",
+      "url": null,
+      "credentialId": null,
+      "logo": "assets/img/logos/kaspersky.jpeg"
+    },
+    {
+      "name": "Rust fundamentals",
+      "issuer": "AMBIENT IT",
+      "date": "2021",
+      "url": null,
+      "credentialId": null,
+      "logo": "assets/img/logos/ambient.jpeg"
     }
   ]
 }

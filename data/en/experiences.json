@@ -2,73 +2,91 @@
   "experiences": [
     {
       "id": "europol",
-      "role": "Malware Specialist",
+      "role": "Malware Forensic Analysis Specialist",
       "company": "Europol",
       "location": "The Hague, Netherlands",
-      "startDate": "2023-01",
-      "endDate": null,
-      "current": true,
+      "startDate": "2025-05",
+      "endDate": "2026-03",
+      "current": false,
       "logo": "assets/img/logos/europol.png",
-      "description": "PLACEHOLDER - Describe your role and responsibilities at Europol.",
+      "description": "Specialist engineer within the Cyber Intelligence Team, EC3 centre, specialised in advanced malware analysis.",
       "highlights": [
-        "PLACEHOLDER - Key achievement or responsibility 1",
-        "PLACEHOLDER - Key achievement or responsibility 2"
+        "Technical lead of EMAS (Europol Malware Analysis Solution), a large-scale European malware analysis platform used by law enforcement agencies",
+        "Advanced reverse engineering of malware to analyse attack techniques and extract configurations in the context of international criminal cases",
+        "Cryptographic and logic vulnerability research and development of ransomware decryption tools (NoMoreRansom initiative)",
+        "Design of automated analysis tools (triage, unpacking, behavioural analysis)"
       ],
-      "tags": ["Malware Analysis", "Reverse Engineering", "Threat Intelligence"]
+      "tags": ["Malware Analysis", "Reverse Engineering", "Cyber Intelligence", "Criminal Investigations"]
     },
     {
       "id": "pj",
-      "role": "Cybercrime Specialist",
+      "role": "Cybercrime Expert Engineer",
       "company": "Police Judiciaire",
-      "location": "Paris, France",
-      "startDate": "2021-01",
-      "endDate": "2022-12",
+      "location": "Nanterre, France",
+      "startDate": "2023-04",
+      "endDate": "2025-05",
       "current": false,
       "logo": "assets/img/logos/pj.jpg",
-      "description": "PLACEHOLDER - Describe your role and responsibilities at Police Judiciaire.",
+      "description": "Cybercrime engineer within the specialised cyber support group, cyber investigations division, anti-cybercrime office, specialised in digital forensics and malware analysis.",
       "highlights": [
-        "PLACEHOLDER - Key achievement or responsibility 1"
+        "In-depth reverse engineering of ransomware families. Research and analysis of cryptographic and logic vulnerabilities in malware strains",
+        "Design and development of decryption tools enabling data recovery for victims",
+        "Malware analysis, digital forensics and incident response expertise on over 30 complex cases"
       ],
-      "tags": ["Digital Forensics", "Cybercrime Investigation"]
+      "tags": ["Malware Analysis", "Reverse Engineering", "Criminal Investigations"]
     },
     {
       "id": "quarkslab",
-      "role": "PLACEHOLDER - Your Role",
+      "role": "Cybersecurity Researcher",
       "company": "QuarksLab",
       "location": "Paris, France",
-      "startDate": "2020-01",
-      "endDate": "2020-12",
+      "startDate": "2022-04",
+      "endDate": "2023-04",
       "current": false,
       "logo": "assets/img/logos/quarkslab.jpg",
-      "description": "PLACEHOLDER - Describe your role and responsibilities at QuarksLab.",
-      "highlights": [],
+      "description": "Cybersecurity engineer within the mobile team, Research & Development division, specialised in vulnerability research in the Apple ecosystem.",
+      "highlights": [
+        "Vulnerability research on macOS kernel, browsers (WebKit, Chrome) and iOS/Android applications",
+        "Public talk on JavaScript engine exploitation",
+        "Fuzzing, reverse engineering, analysis and exploit development",
+        "BADGE Reverse Engineering (ESIEA)"
+      ],
       "tags": ["Vulnerability Research", "Reverse Engineering"]
     },
     {
       "id": "orange",
-      "role": "PLACEHOLDER - Your Role",
+      "role": "Cybersecurity Engineer",
       "company": "Orange Cyberdefense",
-      "location": "Paris, France",
-      "startDate": "2019-01",
-      "endDate": "2019-12",
+      "location": "Nanterre, France",
+      "startDate": "2019-12",
+      "endDate": "2022-04",
       "current": false,
       "logo": "assets/img/logos/orange.png",
-      "description": "PLACEHOLDER - Describe your role and responsibilities at Orange Cyberdefense.",
-      "highlights": [],
-      "tags": ["Cybersecurity"]
+      "description": "Cybersecurity engineer within the P2A team, Product Research & Development division, specialised in malware analysis sandbox development and malware reverse engineering.",
+      "highlights": [
+        "Design and development of a hypervisor-level malware sandbox, stealthy and resistant to evasion techniques",
+        "Large-scale malware analysis (detection, deobfuscation, behaviour)",
+        "Technical supervision of a small research team"
+      ],
+      "tags": ["Product Development", "Malware Analysis", "Reverse Engineering", "Management"]
     },
     {
       "id": "digital-security",
-      "role": "PLACEHOLDER - Your Role",
+      "role": "Cybersecurity Engineer",
       "company": "Digital Security",
       "location": "Paris, France",
-      "startDate": "2018-01",
-      "endDate": "2018-12",
+      "startDate": "2017-09",
+      "endDate": "2019-03",
       "current": false,
       "logo": "assets/img/logos/digital-security.png",
-      "description": "PLACEHOLDER - Describe your role and responsibilities at Digital Security.",
-      "highlights": [],
-      "tags": ["Cybersecurity"]
+      "description": "Cybersecurity engineer within the penetration testing team, specialised in reverse engineering and vulnerability research.",
+      "highlights": [
+        "Development of offensive tools and low-level binary protections (packers) for penetration testing engagements",
+        "Internal and external penetration testing engagements",
+        "Vulnerability research on IoT devices",
+        "Hardware reverse engineering of components"
+      ],
+      "tags": ["Reverse Engineering", "Vulnerability Research", "Development"]
     }
   ]
 }

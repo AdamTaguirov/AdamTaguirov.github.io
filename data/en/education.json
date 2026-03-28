@@ -1,20 +1,22 @@
 {
   "education": [
     {
-      "degree": "Master of Science (M.Sc) in PLACEHOLDER",
-      "institution": "PLACEHOLDER - University Name",
-      "location": "PLACEHOLDER - City, Country",
+      "degree": "Master's Degree (M.Sc) in Information Systems Security",
+      "institution": "YNOV Campus & École 42",
+      "location": "Paris, France",
       "startYear": 2016,
-      "endYear": 2018,
-      "description": "PLACEHOLDER - Optional description, specialization, or thesis title."
+      "endYear": 2020,
+      "description": "Cybersecurity, operating systems, computer architecture, algorithms, systems and network administration.",
+      "logo": "assets/img/logos/ynov.jpeg"
     },
     {
-      "degree": "Bachelor's Degree in PLACEHOLDER",
-      "institution": "PLACEHOLDER - University Name",
-      "location": "PLACEHOLDER - City, Country",
-      "startYear": 2013,
-      "endYear": 2016,
-      "description": null
+      "degree": "BADGE Reverse Engineering",
+      "institution": "ESIEA",
+      "location": "Paris, France",
+      "startYear": 2022,
+      "endYear": 2022,
+      "description": "Certified programme accredited by the Conférence des Grandes Écoles (CGE), specialised in reverse engineering and malware analysis.",
+      "logo": "assets/img/logos/esiea.jpeg"
     }
   ]
 }

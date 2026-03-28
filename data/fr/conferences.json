@@ -37,6 +37,18 @@
       "tags": ["Forces de l'ordre", "Formation", "Analyse de logiciels malveillants"]
     },
     {
+      "role": "Formateur",
+      "title": "Lawful Decryption – Train the Trainer",
+      "event": "Formation CEPOL sur le déchiffrement judiciaire",
+      "date": "2025-04",
+      "location": "Budapest, Hongrie",
+      "description": "Formation « Train the Trainer » organisée par CEPOL en coopération avec ECTEG, visant à préparer des spécialistes des forces de l’ordre à dispenser des formations nationales en déchiffrement judiciaire. La session couvrait à la fois les aspects techniques liés au déchiffrement dans un cadre légal (eDecrypt, Decrypt Advanced) et les méthodes pédagogiques pour transmettre ces compétences aux enquêteurs.",
+      "photo": "assets/img/conferences/cepol.jpg",
+      "slidesUrl": null,
+      "videoUrl": null,
+      "tags": ["Forces de l'ordre", "Formation", "Cryptographie", "Déchiffrement judiciaire"]
+    },
+    {
       "role": "Intervenant",
       "title": "Conférence sur la cybercriminalité",
       "event": "Fête de la science au musée de la police nationale",

@@ -1,10 +1,10 @@
 {
   "name": "Adam TAGUIROV",
-  "title": "Cyber Security Professional",
-  "subtitle": "Malware Specialist",
+  "title": "Cybersecurity Engineer",
+  "subtitle": "Reverse engineering & vulnerability research",
   "yearsOfExperience": "7+",
   "degree": "Master's Degree (M.Sc)",
   "photo": "assets/img/me.png",
-  "openToWork": false,
+  "openToWork": true,
   "cvPdf": "assets/CV_EN.pdf"
 }

@@ -9,9 +9,15 @@
     },
     {
       "platform": "GitHub",
-      "url": "PLACEHOLDER - https://github.com/...",
+      "url": "https://github.com/AdamTaguirov",
       "icon": "github",
-      "label": "PLACEHOLDER"
+      "label": "github.com/AdamTaguirov"
+    },
+    {
+      "platform": "X",
+      "url": "https://x.com/ech0re",
+      "icon": "twitter",
+      "label": "x.com/ech0re"
     }
   ]
 }

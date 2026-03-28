@@ -2,19 +2,17 @@
   "projects": [
     {
       "name": "Root-Me",
-
-      "description": "Former President of Root-Me, a leading French cybersecurity challenge platform with thousands of active users.",
+      "description": "Administrator and president of Root-Me, France's leading cybersecurity challenge platform with hundreds of thousands of active users. Association management, recruitment and supervision of over 40 volunteer staff members, internal organisation and creation of moderation, QA and testing teams. Served for over 8 years, now honorary president.",
       "url": "https://www.root-me.org",
-      "image": null,
-      "tags": ["CTF", "Community", "Education"]
+      "image": "assets/img/logos/rootme.png",
+      "tags": ["Management", "Cybersecurity", "E-learning"]
     },
     {
-      "name": "PLACEHOLDER - Project Name",
-
-      "description": "PLACEHOLDER - Describe your project here.",
-      "url": "PLACEHOLDER - https://...",
-      "image": null,
-      "tags": ["PLACEHOLDER"]
+      "name": "Personal Blog",
+      "description": "Personal cybersecurity blog: various articles, public talks, and entrepreneurial activities.",
+      "url": "https://ech0.re",
+      "image": "assets/img/logos/ech0.png",
+      "tags": ["Blog", "Cybersecurity"]
     }
   ]
 }
