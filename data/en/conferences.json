@@ -1,11 +1,12 @@
 {
   "conferences": [
     {
+      "role": "Speaker",
       "title": "PLACEHOLDER - Talk/Training Title",
       "event": "PLACEHOLDER - Conference or Event Name",
       "date": "2024-06",
       "location": "PLACEHOLDER - City, Country",
-      "type": "talk",
+
       "description": "PLACEHOLDER - Brief description of your talk or training content.",
       "photo": null,
       "slidesUrl": null,

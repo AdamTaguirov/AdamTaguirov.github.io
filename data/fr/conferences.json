@@ -1,16 +1,52 @@
 {
   "conferences": [
     {
-      "title": "PLACEHOLDER - Titre de la Conférence/Formation",
-      "event": "PLACEHOLDER - Nom de l'Événement",
-      "date": "2024-06",
-      "location": "PLACEHOLDER - Ville, Pays",
-      "type": "talk",
-      "description": "PLACEHOLDER - Brève description du contenu de votre intervention ou formation.",
-      "photo": null,
+      "role": "Formateur",
+      "title": "Formation en analyse de logiciels malveillants",
+      "event": "Session de formation internationale OFAC sur les rançongiciels",
+      "date": "2025-05",
+      "location": "Paris, France",
+      "description": "Conception et animation d’une formation technique en analyse de rançongiciels à destination de policiers issus de plusieurs pays européens, dans le cadre d’un programme financé par CEPOL. La session couvrait la détection, l’analyse statique et dynamique de malwares, ainsi que l’identification de mécanismes de chiffrement et de pistes de remédiation.",
+      "photo": "assets/img/conferences/ofac.jpeg",
       "slidesUrl": null,
       "videoUrl": null,
-      "tags": ["PLACEHOLDER"]
+      "tags": ["Forces de l'ordre", "Formation", "Analyse de logiciels malveillants"]
+    },
+    {
+      "role": "Intervenant",
+      "title": "Exploitation de moteurs JavaScript",
+      "event": "Quarks in the Shell",
+      "date": "2023-04",
+      "location": "Paris, France",
+      "description": "Présentation des méthodologies d’exploitation des moteurs JavaScript modernes, avec un focus sur V8 (Chrome) et JavaScriptCore (Safari). La session couvre la structure mémoire des objets JavaScript, les primitives d’exploitation fondamentales (addrof, fakeobj), leur évolution vers des primitives avancées (arbitrary read/write), ainsi que leur mise en œuvre dans des chaînes d’exploitation concrètes. Une attention particulière est portée à l’écosystème iOS et aux mécanismes de sécurité de WebKit, avec une analyse des techniques de contournement.",
+      "photo": "assets/img/conferences/quarkslab.png",
+      "slidesUrl": null,
+      "videoUrl": "https://youtu.be/VaaXB8mrtL0?si=X0SJjft1TYJ1Z0xS",
+      "tags": ["Recherche de vulnérabilités", "Conférence", "Exploitation de navigateurs"]
+    },
+    {
+      "role": "Formateur",
+      "title": "Formation analyse de logiciels malveillants",
+      "event": "Coopération internationale avec l'Afrique du Sud",
+      "date": "2024-05",
+      "location": "Pretoria, Afrique du Sud",
+      "description": "Conception et animation d’une formation technique en analyse de rançongiciels à destination de policiers d'Afrique du Sud, dans le cadre d’une coopération internationale entre la France et l'Afrique du Sud. La session couvrait la détection, l’analyse statique et dynamique de malwares, ainsi que l’identification de mécanismes de chiffrement et de pistes de remédiation.",
+      "photo": "assets/img/conferences/afriquedusud.jpg",
+      "slidesUrl": null,
+      "videoUrl": null,
+      "tags": ["Forces de l'ordre", "Formation", "Analyse de logiciels malveillants"]
+    },
+    {
+      "role": "Intervenant",
+      "title": "Conférence sur la cybercriminalité",
+      "event": "Fête de la science au musée de la police nationale",
+      "date": "2024-10",
+      "location": "Paris, France",
+      "description": "Conférence grand public sur la cybercriminalité organisée dans le cadre de la Fête de la Science au musée de la Préfecture de Police de Paris. Présentation des principales formes de criminalité numérique (fraudes, usurpation d’identité, vols de données, escroqueries, diffusion de malwares) ainsi que des méthodes et dispositifs mis en œuvre par les services d’enquête pour les détecter et les combattre. Intervention visant à sensibiliser le public aux enjeux actuels de la cybercriminalité et aux réponses opérationnelles apportées par la police.",
+      "photo": "assets/img/conferences/musee.jpg",
+      "slidesUrl": null,
+      "videoUrl": null,
+      "tags": ["Sensibilisation", "Conférence", "Grand public", "Cybercriminalité"]
     }
   ]
 }

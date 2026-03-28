@@ -845,6 +845,7 @@ ul {
 .conference-photo {
     flex-shrink: 0;
     width: 200px;
+    max-height: 300px;
     border-radius: var(--border-radius-sm);
     overflow: hidden;
 }
@@ -859,11 +860,31 @@ ul {
     flex: 1;
 }
 
+.conference-title-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-1);
+}
+
 .conference-title {
     font-size: var(--text-lg);
     font-weight: var(--font-weight-medium);
     color: var(--color-text);
-    margin-bottom: var(--space-1);
+}
+
+.conference-role {
+    display: inline-flex;
+    padding: 2px var(--space-2);
+    font-size: 0.65rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-accent-dark);
+    background: var(--color-accent-light);
+    border-radius: var(--border-radius-full);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
 }
 
 .conference-event {
@@ -1073,7 +1094,7 @@ ul {
 
     .conference-photo {
         width: 100%;
-        max-height: 200px;
+        max-height: 300px;
     }
 }
 
