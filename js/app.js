@@ -44,8 +44,27 @@ App.render = function () {
     });
 };
 
+App.initTheme = function () {
+    var saved = localStorage.getItem('theme');
+    if (saved === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+
+    document.getElementById('themeToggle').addEventListener('click', function () {
+        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (isDark) {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.removeItem('theme');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+        }
+    });
+};
+
 App.init = function () {
     App.i18n.init();
+    App.initTheme();
 
     // Check URL hash for initial tab
     var hash = window.location.hash.slice(1);
