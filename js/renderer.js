@@ -63,6 +63,11 @@ App.renderer = {
     renderExperienceCard: function (exp, ui) {
         var endLabel = exp.current ? ui.labels.present : this.formatDate(exp.endDate);
         var currentBadge = exp.current ? '<span class="current-badge">' + ui.labels.current + '</span>' : '';
+        var sectorBadge = '';
+        if (exp.sector) {
+            var sectorLabel = ui.labels['sector_' + exp.sector] || exp.sector;
+            sectorBadge = '<span class="sector-badge sector-' + exp.sector + '">' + sectorLabel + '</span>';
+        }
         var tags = exp.tags.map(function (t) { return '<span class="tag">' + t + '</span>'; }).join('');
         var highlights = '';
         if (exp.highlights && exp.highlights.length) {
@@ -83,6 +88,7 @@ App.renderer = {
             '<div class="experience-title-row">' +
             '<h3 class="experience-role">' + exp.role + '</h3>' +
             currentBadge +
+            sectorBadge +
             '</div>' +
             '<p class="experience-company">' + exp.company + ' &middot; ' + exp.location + '</p>' +
             '<p class="experience-dates">' + this.formatDate(exp.startDate) + ' — ' + endLabel + '</p>' +

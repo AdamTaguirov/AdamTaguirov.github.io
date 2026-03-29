@@ -13,6 +13,13 @@
       "url": "https://ech0.re",
       "image": "assets/img/logos/ech0.png",
       "tags": ["Blog", "Cybersécurité"]
+    },
+    {
+      "name": "Noeuds de validation Polkadot",
+      "description": "Exploitation de noeuds validateurs sur le réseau Polkadot, participant à la sécurisation de la blockchain via le mécanisme de consensus NPoS (Nominated Proof-of-Stake). Gestion de l’infrastructure, monitoring, optimisation de la disponibilité et interaction avec les nominateurs afin de maintenir une présence stable dans l’ensemble actif des validateurs.",
+      "url": "https://validator.ech0.re",
+      "image": "assets/img/logos/polkadot.png", 
+      "tags": ["Blockchain", "Infrastructure", "Administration système et réseau"]
     }
   ]
 }

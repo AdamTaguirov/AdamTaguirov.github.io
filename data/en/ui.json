@@ -23,7 +23,10 @@
     "viewVideo": "Watch Video",
     "visitProject": "Visit",
     "current": "Current",
-    "downloadCv": "Download CV"
+    "downloadCv": "Download CV",
+    "sector_law_enforcement": "Law Enforcement",
+    "sector_public": "Public Sector",
+    "sector_private": "Private Sector"
   },
   "language": {
     "switchLabel": "FR"

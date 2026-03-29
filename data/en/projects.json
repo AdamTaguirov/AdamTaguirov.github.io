@@ -13,6 +13,13 @@
       "url": "https://ech0.re",
       "image": "assets/img/logos/ech0.png",
       "tags": ["Blog", "Cybersecurity"]
+    },
+    {
+      "name": "Polkadot Validator Nodes",
+      "description": "Operation of validator nodes on the Polkadot network, contributing to blockchain security through the NPoS (Nominated Proof-of-Stake) consensus mechanism. Infrastructure management, monitoring, availability optimization, and interaction with nominators to maintain a stable presence in the active validator set.",
+      "url": "https://validator.ech0.re",
+      "image": "assets/img/logos/polkadot.png",
+      "tags": ["Blockchain", "Infrastructure", "System and Network Administration"]
     }
   ]
 }

@@ -23,7 +23,10 @@
     "viewVideo": "Voir la conférence",
     "visitProject": "Visiter",
     "current": "Actuel",
-    "downloadCv": "Télécharger le CV"
+    "downloadCv": "Télécharger le CV",
+    "sector_law_enforcement": "Forces de l'ordre",
+    "sector_public": "Secteur public",
+    "sector_private": "Secteur privé"
   },
   "language": {
     "switchLabel": "EN"

@@ -497,6 +497,30 @@ ul {
     letter-spacing: 0.05em;
 }
 
+.sector-badge {
+    display: inline-flex;
+    padding: 2px var(--space-2);
+    font-size: 0.65rem;
+    font-weight: var(--font-weight-medium);
+    border-radius: var(--border-radius-full);
+    letter-spacing: 0.03em;
+}
+
+.sector-law_enforcement {
+    color: #9c4221;
+    background: #fff4e6;
+}
+
+.sector-public {
+    color: var(--color-accent-dark);
+    background: var(--color-accent-light);
+}
+
+.sector-private {
+    color: #5c469c;
+    background: #f3f0ff;
+}
+
 .experience-company {
     font-size: var(--text-sm);
     color: var(--color-text-secondary);
