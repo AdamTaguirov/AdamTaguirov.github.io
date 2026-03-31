@@ -7,7 +7,8 @@
       "startYear": 2016,
       "endYear": 2020,
       "description": "Cybersécurité, systèmes d’exploitation, architecture des ordinateurs, algorithmes, administration systèmes et réseaux.",
-      "logo": "assets/img/logos/ynov.jpeg"
+      "logo": "assets/img/logos/ynov.jpeg",
+      "diplomaId": "2020-YNOV0599"
     },
     {
       "degree": "BADGE Reverse Engineering",
@@ -16,7 +17,8 @@
       "startYear": 2022,
       "endYear": 2022,
       "description": "Programme certifiant labellisé par la Conférence des Grandes Écoles (CGE), spécialisé en rétro-ingénierie et analyse de logiciels malveillants.",
-      "logo": "assets/img/logos/esiea.jpeg"
+      "logo": "assets/img/logos/esiea.jpeg",
+      "diplomaId": "REV 2023-26"
     }
   ]
 }

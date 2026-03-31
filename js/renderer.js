@@ -28,7 +28,7 @@ App.renderer = {
     },
 
     renderNav: function (uiData, activeTab) {
-        var tabs = ['cv', 'projects', 'contact'];
+        var tabs = ['cv', 'projects', 'interests', 'gallery', 'contact'];
         return tabs.map(function (tab) {
             var isActive = tab === activeTab;
             return '<button class="tab-btn' + (isActive ? ' active' : '') + '" ' +
@@ -121,6 +121,7 @@ App.renderer = {
                 '<p class="education-institution">' + edu.institution + ' &middot; ' + edu.location + '</p>' +
                 '<p class="education-years">' + edu.startYear + ' — ' + edu.endYear + '</p>' +
                 (edu.description ? '<p class="education-desc">' + edu.description + '</p>' : '') +
+                (edu.diplomaId ? '<p class="education-id">ID: ' + edu.diplomaId + '</p>' : '') +
                 '</div>' +
                 '</article>';
         }).join('');
@@ -274,6 +275,52 @@ App.renderer = {
     renderProjectsTab: function (data) {
         return this.renderProjects(data.projects, data.ui) +
             this.renderConferences(data.conferences, data.ui);
+    },
+
+    renderInterests: function (data, ui) {
+        var categories = data.categories.map(function (cat) {
+            var icon = App.icons[cat.icon] || '';
+            var title = ui.sections['interest_' + cat.key] || cat.key;
+            var items = cat.items.map(function (item) {
+                var cls = 'interest-tag' + (item.preferred ? ' interest-tag--preferred' : '');
+                return '<span class="' + cls + '">' + item.label + '</span>';
+            }).join('');
+            return '<div class="interest-category">' +
+                '<div class="interest-category-header">' +
+                '<span class="interest-category-icon">' + icon + '</span>' +
+                '<h3 class="interest-category-name">' + title + '</h3>' +
+                '</div>' +
+                '<div class="interest-tags">' + items + '</div>' +
+                '</div>';
+        }).join('');
+        return '<section class="section">' +
+            '<h2 class="section-heading">' + ui.sections.interests + '</h2>' +
+            '<div class="interests-grid">' + categories + '</div>' +
+            '</section>';
+    },
+
+    renderInterestsTab: function (data) {
+        return this.renderInterests(data.interests, data.ui);
+    },
+
+    renderGallery: function (data, ui) {
+        var items = data.items.map(function (item) {
+            var cls = 'gallery-item' + (item.wide ? ' gallery-item--wide' : '');
+            return '<figure class="' + cls + '">' +
+                '<a href="' + item.image + '" target="_blank" rel="noopener">' +
+                '<img class="gallery-image" src="' + item.image + '" alt="' + item.title + '" loading="lazy">' +
+                '</a>' +
+                '<figcaption class="gallery-caption">' + item.title + '</figcaption>' +
+                '</figure>';
+        }).join('');
+        return '<section class="section">' +
+            '<h2 class="section-heading">' + ui.sections.gallery + '</h2>' +
+            '<div class="gallery-grid">' + items + '</div>' +
+            '</section>';
+    },
+
+    renderGalleryTab: function (data) {
+        return this.renderGallery(data.gallery, data.ui);
     },
 
     renderContactTab: function (data) {

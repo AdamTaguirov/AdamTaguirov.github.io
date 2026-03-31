@@ -2,6 +2,8 @@
   "tabs": {
     "cv": "CV",
     "projects": "Projects",
+    "interests": "Interests",
+    "gallery": "Gallery",
     "contact": "Contact"
   },
   "sections": {
@@ -12,7 +14,13 @@
     "projects": "Projects",
     "conferences": "Conferences & Trainings",
     "contact": "Get in Touch",
-    "social": "Social Links"
+    "social": "Social Links",
+    "interests": "What I'm Looking For",
+    "gallery": "Diplomas & Certifications",
+    "interest_work_arrangement": "Work Arrangement",
+    "interest_desired_positions": "Desired Positions",
+    "interest_sector": "Sector",
+    "interest_contract_type": "Contract Type"
   },
   "labels": {
     "present": "Present",
@@ -26,7 +34,8 @@
     "downloadCv": "Download CV",
     "sector_law_enforcement": "Law Enforcement",
     "sector_public": "Public Sector",
-    "sector_private": "Private Sector"
+    "sector_private": "Private Sector",
+    "preferred": "Preferred"
   },
   "language": {
     "switchLabel": "FR"

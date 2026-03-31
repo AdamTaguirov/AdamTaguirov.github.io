@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "title": "BADGE Reverse Engineering — ESIEA",
+      "image": "assets/img/certifications/esiea.png",
+      "wide": true
+    },
+    {
+      "title": "Expert informatique et systèmes d'information — YNOV Campus",
+      "image": "assets/img/certifications/ynov.png"
+    },
+    {
+      "title": "Advanced Decryption — CEPOL",
+      "image": "assets/img/certifications/cepol.png"
+    },
+    {
+      "title": "Certificat de formateur Decryption — CEPOL",
+      "image": "assets/img/certifications/CEPOL-trainer.png"
+    },
+    {
+      "title": "Reverse Engineering 101 — Kaspersky",
+      "image": "assets/img/certifications/kaspersky.png"
+    },
+    {
+      "title": "Cycle d'architecte en technologie du numérique — 42",
+      "image": "assets/img/certifications/42.png"
+    },
+    {
+      "title": "Lettre de reconnaissance Europol EC3",
+      "image": "assets/img/certifications/Europol-Certificate.png"
+    },
+    {
+      "title": "Rust Fundamentals — AMBIENT IT",
+      "image": "assets/img/certifications/ambient-it.png"
+    },
+    {
+      "title": "TOEIC",
+      "image": "assets/img/certifications/toeic.png"
+    }
+  ]
+}

@@ -786,7 +786,8 @@ ul {
     margin-top: 2px;
 }
 
-.certificate-id {
+.certificate-id,
+.education-id {
     font-size: var(--text-xs);
     color: var(--color-text-muted);
     margin-top: 2px;
@@ -824,6 +825,118 @@ ul {
     background: var(--color-tag-bg);
     border-radius: var(--border-radius-full);
     border: 1px solid var(--color-border);
+}
+
+/* ===========================
+   13b. INTERESTS
+   =========================== */
+
+.interests-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+}
+
+.interest-category {
+    padding: var(--space-5);
+    background: var(--color-surface);
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--color-border-light);
+}
+
+.interest-category-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-4);
+}
+
+.interest-category-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: var(--border-radius-sm);
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+    flex-shrink: 0;
+}
+
+.interest-category-icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+.interest-category-name {
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text);
+}
+
+.interest-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+}
+
+.interest-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--text-xs);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-tag-text);
+    background: var(--color-tag-bg);
+    border-radius: var(--border-radius-full);
+    border: 1px solid var(--color-border);
+}
+
+.interest-tag--preferred {
+    color: var(--color-accent-dark);
+    background: var(--color-accent-light);
+    border-color: var(--color-accent);
+    font-weight: var(--font-weight-medium);
+}
+
+/* ===========================
+   13c. GALLERY
+   =========================== */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+}
+
+.gallery-item {
+    background: var(--color-surface);
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--color-border-light);
+    overflow: hidden;
+    transition: box-shadow var(--transition-base);
+}
+
+.gallery-item:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.gallery-image {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.gallery-item--wide {
+    grid-column: 1 / -1;
+}
+
+.gallery-caption {
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-text-secondary);
+    text-align: center;
 }
 
 /* ===========================
@@ -1174,7 +1287,9 @@ ul {
         height: 100px;
     }
 
-    .skills-grid {
+    .skills-grid,
+    .interests-grid,
+    .gallery-grid {
         grid-template-columns: 1fr;
     }
 

@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "key": "work_arrangement",
+      "icon": "mappin",
+      "items": [
+        { "label": "Remote", "preferred": false },
+        { "label": "Hybrid", "preferred": false },
+        { "label": "On-site", "preferred": false },
+        { "label": "Open to relocation", "preferred": false }
+      ]
+    },
+    {
+      "key": "desired_positions",
+      "icon": "award",
+      "items": [
+        { "label": "Reverse Engineering", "preferred": false },
+        { "label": "Vulnerability Research", "preferred": false },
+        { "label": "Digital Forensics", "preferred": false },
+        { "label": "Threat Intelligence", "preferred": false },
+        { "label": "Management", "preferred": false }
+      ]
+    },
+    {
+      "key": "sector",
+      "icon": "mic",
+      "items": [
+        { "label": "Private Sector", "preferred": false },
+        { "label": "Public Sector", "preferred": false },
+        { "label": "Law Enforcement", "preferred": false }
+      ]
+    },
+    {
+      "key": "contract_type",
+      "icon": "calendar",
+      "items": [
+        { "label": "Permanent", "preferred": false },
+        { "label": "Temporary", "preferred": false },
+        { "label": "Freelance", "preferred": false }
+      ]
+    }
+  ]
+}

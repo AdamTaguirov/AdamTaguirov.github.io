@@ -22,6 +22,12 @@ App.render = function () {
             case 'projects':
                 content.innerHTML = App.renderer.renderProjectsTab(data);
                 break;
+            case 'interests':
+                content.innerHTML = App.renderer.renderInterestsTab(data);
+                break;
+            case 'gallery':
+                content.innerHTML = App.renderer.renderGalleryTab(data);
+                break;
             case 'contact':
                 content.innerHTML = App.renderer.renderContactTab(data);
                 break;
@@ -68,7 +74,7 @@ App.init = function () {
 
     // Check URL hash for initial tab
     var hash = window.location.hash.slice(1);
-    if (['cv', 'projects', 'contact'].indexOf(hash) !== -1) {
+    if (['cv', 'projects', 'interests', 'gallery', 'contact'].indexOf(hash) !== -1) {
         App.state.activeTab = hash;
     }
 
@@ -80,7 +86,7 @@ App.init = function () {
     // Handle hash changes (browser back/forward)
     window.addEventListener('hashchange', function () {
         var hash = window.location.hash.slice(1);
-        if (['cv', 'projects', 'contact'].indexOf(hash) !== -1) {
+        if (['cv', 'projects', 'interests', 'gallery', 'contact'].indexOf(hash) !== -1) {
             App.state.activeTab = hash;
             App.render();
         }

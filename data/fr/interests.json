@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "key": "work_arrangement",
+      "icon": "mappin",
+      "items": [
+        { "label": "Télétravail", "preferred": false },
+        { "label": "Hybride", "preferred": false },
+        { "label": "Sur site", "preferred": false },
+        { "label": "Mobilité géographique", "preferred": false }
+      ]
+    },
+    {
+      "key": "desired_positions",
+      "icon": "award",
+      "items": [
+        { "label": "Rétro-ingénierie", "preferred": false },
+        { "label": "Recherche de vulnérabilités", "preferred": false },
+        { "label": "Investigation numérique", "preferred": false },
+        { "label": "Threat Intelligence", "preferred": false },
+        { "label": "Management", "preferred": false }
+      ]
+    },
+    {
+      "key": "sector",
+      "icon": "mic",
+      "items": [
+        { "label": "Secteur privé", "preferred": false },
+        { "label": "Secteur public", "preferred": false },
+        { "label": "Forces de l'ordre", "preferred": false }
+      ]
+    },
+    {
+      "key": "contract_type",
+      "icon": "calendar",
+      "items": [
+        { "label": "CDI", "preferred": false },
+        { "label": "CDD", "preferred": false },
+        { "label": "Freelance", "preferred": false }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,8 @@
       "startYear": 2016,
       "endYear": 2020,
       "description": "Cybersecurity, operating systems, computer architecture, algorithms, systems and network administration.",
-      "logo": "assets/img/logos/ynov.jpeg"
+      "logo": "assets/img/logos/ynov.jpeg",
+      "diplomaId": "2020-YNOV0599"
     },
     {
       "degree": "BADGE Reverse Engineering",
@@ -16,7 +17,8 @@
       "startYear": 2022,
       "endYear": 2022,
       "description": "Certified programme accredited by the Conférence des Grandes Écoles (CGE), specialised in reverse engineering and malware analysis.",
-      "logo": "assets/img/logos/esiea.jpeg"
+      "logo": "assets/img/logos/esiea.jpeg",
+      "diplomaId": "REV 2023-26"
     }
   ]
 }

@@ -36,7 +36,7 @@ App.i18n = {
         var files = [
             'profile', 'experiences', 'education',
             'certificates', 'skills', 'projects',
-            'conferences', 'contact', 'ui'
+            'conferences', 'contact', 'interests', 'gallery', 'ui'
         ];
         var self = this;
         return Promise.all(files.map(function (f) { return self.load(f); }))
