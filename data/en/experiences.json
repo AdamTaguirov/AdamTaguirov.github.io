@@ -1,6 +1,25 @@
 {
   "experiences": [
     {
+      "id": "sigreturn-labs",
+      "role": "Cybersecurity Researcher",
+      "company": "Sigreturn Labs",
+      "sector": "private",
+      "location": "Paris, France",
+      "startDate": "2026-04",
+      "endDate": null,
+      "current": true,
+      "logo": "assets/img/logos/sigreturn.svg",
+      "description": "Cybersecurity researcher specialised in malware analysis, vulnerability research, and the development, testing and maintenance of SaaS solutions.",
+      "highlights": [
+        "Malware analysis and in-depth reverse engineering to extract attack techniques and configurations",
+        "Cryptographic and logic vulnerability research",
+        "Design, development, testing and maintenance of SaaS solutions",
+        "Design of automated analysis tools (triage, unpacking, behavioural analysis)"
+      ],
+      "tags": ["Malware Analysis", "Reverse Engineering", "Vulnerability Research", "Development"]
+    },
+    {
       "id": "europol",
       "role": "Malware Forensic Analysis Specialist",
       "company": "Europol",

@@ -1,6 +1,25 @@
 {
   "experiences": [
     {
+      "id": "sigreturn-labs",
+      "role": "Chercheur en cybersécurité",
+      "company": "Sigreturn Labs",
+      "sector": "private",
+      "location": "Paris, France",
+      "startDate": "2026-04",
+      "endDate": null,
+      "current": true,
+      "logo": "assets/img/logos/sigreturn.svg",
+      "description": "Chercheur en cybersécurité spécialisé en analyse de logiciels malveillants, recherche de vulnérabilités, et développement, test et maintenance de solutions SaaS.",
+      "highlights": [
+        "Analyse de logiciels malveillants et rétro-ingénierie approfondie pour extraire les techniques d'attaque et configurations",
+        "Recherche de vulnérabilités cryptographiques ou logiques",
+        "Conception, développement, test et maintenance de solutions SaaS",
+        "Conception d'outils d'analyse automatisée (tri, unpacking, analyse comportementale)"
+      ],
+      "tags": ["Analyse de logiciels malveillants", "Rétro-ingénierie", "Recherche de vulnérabilités", "Développement"]
+    },
+    {
       "id": "europol",
       "role": "Spécialiste en analyse forensique de logiciels malveillants",
       "company": "Europol",
