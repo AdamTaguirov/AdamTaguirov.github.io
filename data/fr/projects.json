@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "name": "Sigreturn Labs",
+      "description": "Société de recherche en cybersécurité que j'ai fondée, spécialisée en analyse de logiciels malveillants, recherche de vulnérabilités et développement de solutions SaaS. Définition de la stratégie technique et commerciale, conception d'outils d'analyse automatisée et conduite des prestations de rétro-ingénierie et de développement produit.",
+      "url": "https://sigreturn.com",
+      "image": "assets/img/logos/sigreturn.svg",
+      "tags": ["Entrepreneuriat", "Cybersécurité", "Recherche & Développement"]
+    },
+    {
       "name": "Root-Me",
       "description": "Administrateur et président de Root-Me, plateforme française de référence en challenges de cybersécurité avec des centaines de milliers d'utilisateurs actifs. Gestion de l'association, recrutement et management de plus de 40 membres du staff bénévoles, organisation internes et création des équipes de modération, QA et testeurs. Servi pendant plus de 8 ans, désormais président d'honneur.",
       "url": "https://www.root-me.org",
