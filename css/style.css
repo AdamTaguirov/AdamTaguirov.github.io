@@ -439,11 +439,17 @@ ul {
     font-weight: var(--font-weight-semibold);
 }
 
+.cv-downloads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-top: var(--space-3);
+}
+
 .download-cv-btn {
     display: inline-flex;
     align-items: center;
     gap: var(--space-1);
-    margin-top: var(--space-3);
     padding: 0;
     font-size: var(--text-xs);
     font-weight: var(--font-weight-regular);

@@ -6,5 +6,6 @@
   "degree": "Master (BAC+5)",
   "photo": "assets/img/me.png",
   "openToWork": true,
-  "cvPdf": "assets/CV_FR.pdf"
+  "cvPdf": "assets/CV_FR.pdf",
+  "cvPdfDetailed": "assets/CV_Detailed_EN.pdf"
 }

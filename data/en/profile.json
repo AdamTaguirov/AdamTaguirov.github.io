@@ -6,5 +6,6 @@
   "degree": "Master's Degree (M.Sc)",
   "photo": "assets/img/me.png",
   "openToWork": true,
-  "cvPdf": "assets/CV_EN.pdf"
+  "cvPdf": "assets/CV_EN.pdf",
+  "cvPdfDetailed": "assets/CV_Detailed_EN.pdf"
 }

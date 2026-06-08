@@ -53,9 +53,16 @@ App.renderer = {
             '<span class="stat-badge">' + profile.degree + '</span>' +
             statusBadge +
             '</div>' +
+            '<div class="cv-downloads">' +
             '<a class="download-cv-btn" href="' + profile.cvPdf + '" download>' +
             App.icons.download + ' ' + ui.labels.downloadCv +
             '</a>' +
+            (profile.cvPdfDetailed
+                ? '<a class="download-cv-btn" href="' + profile.cvPdfDetailed + '" download>' +
+                  App.icons.download + ' ' + ui.labels.downloadCvDetailed +
+                  '</a>'
+                : '') +
+            '</div>' +
             '</div>' +
             '</section>';
     },
