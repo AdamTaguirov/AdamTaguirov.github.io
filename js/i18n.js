@@ -6,16 +6,34 @@ App.i18n = {
     cache: {},
 
     init: function () {
-        var saved = localStorage.getItem('lang');
-        if (saved && this.supportedLangs.indexOf(saved) !== -1) {
-            this.currentLang = saved;
+        // Precedence: URL ?lang= param > saved preference > browser language
+        var urlLang = new URLSearchParams(window.location.search).get('lang');
+        if (urlLang && this.supportedLangs.indexOf(urlLang) !== -1) {
+            this.currentLang = urlLang;
+            localStorage.setItem('lang', urlLang);
         } else {
-            var browserLang = (navigator.language || '').slice(0, 2);
-            if (this.supportedLangs.indexOf(browserLang) !== -1) {
-                this.currentLang = browserLang;
+            var saved = localStorage.getItem('lang');
+            if (saved && this.supportedLangs.indexOf(saved) !== -1) {
+                this.currentLang = saved;
+            } else {
+                var browserLang = (navigator.language || '').slice(0, 2);
+                if (this.supportedLangs.indexOf(browserLang) !== -1) {
+                    this.currentLang = browserLang;
+                }
             }
         }
         document.documentElement.lang = this.currentLang;
+        // Always reflect the active language in the URL so it can be shared directly
+        this.updateUrl();
+    },
+
+    // Keep ?lang= in the address bar in sync with the active language,
+    // preserving the current tab (hash) and any other query params.
+    updateUrl: function () {
+        var params = new URLSearchParams(window.location.search);
+        params.set('lang', this.currentLang);
+        var newUrl = window.location.pathname + '?' + params.toString() + window.location.hash;
+        history.replaceState(null, '', newUrl);
     },
 
     load: function (filename) {
@@ -51,6 +69,7 @@ App.i18n = {
         this.currentLang = this.currentLang === 'en' ? 'fr' : 'en';
         localStorage.setItem('lang', this.currentLang);
         document.documentElement.lang = this.currentLang;
+        this.updateUrl();
         this.cache = {};
         return App.render();
     }

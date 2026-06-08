@@ -41,7 +41,7 @@ App.render = function () {
         nav.querySelectorAll('.tab-btn').forEach(function (btn) {
             btn.addEventListener('click', function () {
                 App.state.activeTab = btn.dataset.tab;
-                history.replaceState(null, '', '#' + btn.dataset.tab);
+                history.replaceState(null, '', window.location.search + '#' + btn.dataset.tab);
                 App.render().then(function () {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 });
