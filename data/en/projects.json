@@ -8,6 +8,13 @@
       "tags": ["Entrepreneurship", "Cybersecurity", "Research & Development"]
     },
     {
+      "name": "Time as a Key (research paper)",
+      "description": "Preprint on a cryptographic flaw in the Rhysida ransomware: its PRNG is seeded with srand(time(0)) and the OAEP seed of its RSA key wrap comes from that same generator, making the blob appended to every encrypted file reproducible offline and usable as an exact oracle for a guessed key. Published by Sigreturn Labs, 15 pages.",
+      "url": "https://sigreturn.com/papers/time-as-a-key/",
+      "image": "assets/img/logos/sigreturn.svg",
+      "tags": ["Research", "Cryptanalysis", "Ransomware"]
+    },
+    {
       "name": "Root-Me",
       "description": "Administrator and president of Root-Me, France's leading cybersecurity challenge platform with hundreds of thousands of active users. Association management, recruitment and supervision of over 40 volunteer staff members, internal organisation and creation of moderation, QA and testing teams. Served for over 8 years, now honorary president.",
       "url": "https://www.root-me.org",

@@ -8,6 +8,13 @@
       "tags": ["Entrepreneuriat", "Cybersécurité", "Recherche & Développement"]
     },
     {
+      "name": "Time as a Key (papier de recherche)",
+      "description": "Préprint sur une faille cryptographique du rançongiciel Rhysida : son PRNG est initialisé avec srand(time(0)) et la graine OAEP de son encapsulation RSA provient du même générateur, ce qui rend le blob ajouté à chaque fichier chiffré reproductible hors ligne et exploitable comme oracle exact pour une clé devinée. Publié par Sigreturn Labs, 15 pages.",
+      "url": "https://sigreturn.com/papers/time-as-a-key/",
+      "image": "assets/img/logos/sigreturn.svg",
+      "tags": ["Recherche", "Cryptanalyse", "Rançongiciel"]
+    },
+    {
       "name": "Root-Me",
       "description": "Administrateur et président de Root-Me, plateforme française de référence en challenges de cybersécurité avec des centaines de milliers d'utilisateurs actifs. Gestion de l'association, recrutement et management de plus de 40 membres du staff bénévoles, organisation internes et création des équipes de modération, QA et testeurs. Servi pendant plus de 8 ans, désormais président d'honneur.",
       "url": "https://www.root-me.org",

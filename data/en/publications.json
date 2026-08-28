@@ -1,0 +1,13 @@
+{
+  "publications": [
+    {
+      "title": "Time as a Key: Breaking Rhysida Ransomware with the Attacker's Own Ciphertext",
+      "type": "Preprint",
+      "venue": "Sigreturn Labs",
+      "date": "2026-08",
+      "description": "Rhysida seeds its PRNG with srand(time(0)) and draws the OAEP seed of its RSA key wrap from that same generator. The blob appended to every encrypted file is therefore reproducible offline, which turns the attacker's own ciphertext into an exact oracle for a guessed key and makes recovery possible without the private key. 15 pages.",
+      "url": "https://sigreturn.com/papers/time-as-a-key/",
+      "tags": ["Cryptanalysis", "Ransomware", "Reverse Engineering"]
+    }
+  ]
+}

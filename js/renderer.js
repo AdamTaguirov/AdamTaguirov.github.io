@@ -175,6 +175,28 @@ App.renderer = {
             '</section>';
     },
 
+    renderPublications: function (data, ui) {
+        var self = this;
+        var cards = data.publications.map(function (pub) {
+            var tags = pub.tags.map(function (t) { return '<span class="tag">' + t + '</span>'; }).join('');
+            return '<article class="publication-card">' +
+                '<div class="publication-title-row">' +
+                '<h3 class="publication-title">' + pub.title + '</h3>' +
+                '<span class="publication-type">' + pub.type + '</span>' +
+                '</div>' +
+                '<p class="publication-meta">' + pub.venue + ' &middot; ' + self.formatDate(pub.date) + '</p>' +
+                '<p class="publication-desc">' + pub.description + '</p>' +
+                '<div class="publication-tags">' + tags + '</div>' +
+                '<a class="publication-link" href="' + pub.url + '" target="_blank" rel="noopener">' +
+                ui.labels.readPaper + ' ' + App.icons.external + '</a>' +
+                '</article>';
+        }).join('');
+        return '<section class="section">' +
+            '<h2 class="section-heading">' + ui.sections.publications + '</h2>' +
+            '<div class="publications-list">' + cards + '</div>' +
+            '</section>';
+    },
+
     renderProjects: function (data, ui) {
         var cards = data.projects.map(function (proj) {
             var tags = proj.tags.map(function (t) { return '<span class="tag">' + t + '</span>'; }).join('');
@@ -274,6 +296,7 @@ App.renderer = {
     renderCvTab: function (data) {
         return this.renderProfileHero(data.profile, data.ui) +
             this.renderExperiences(data.experiences, data.ui) +
+            this.renderPublications(data.publications, data.ui) +
             this.renderEducation(data.education, data.ui) +
             this.renderCertificates(data.certificates, data.ui) +
             this.renderSkills(data.skills, data.ui);
