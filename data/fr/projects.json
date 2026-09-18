@@ -24,14 +24,14 @@
     {
       "name": "Blog personnel",
       "description": "Blog personnel en cybersécurité : articles divers, conférences publiques, et activités d'entrepreneur.",
-      "url": "https://ech0.re",
+      "url": "https://sigreturn.com/blog/",
       "image": "assets/img/logos/ech0.png",
       "tags": ["Blog", "Cybersécurité"]
     },
     {
-      "name": "Noeuds de validation Polkadot",
-      "description": "Exploitation de noeuds validateurs sur le réseau Polkadot, participant à la sécurisation de la blockchain via le mécanisme de consensus NPoS (Nominated Proof-of-Stake). Gestion de l’infrastructure, monitoring, optimisation de la disponibilité et interaction avec les nominateurs afin de maintenir une présence stable dans l’ensemble actif des validateurs.",
-      "url": "https://validator.ech0.re",
+      "name": "Validateurs Polkadot et registrar d'identité",
+      "description": "dotID, registrar d'identité indépendant pour les réseaux Polkadot et Kusama, conçu et exploité par Sigreturn Labs. Ses sièges de registrar et son autorité sur les noms d'utilisateur ont été accordés par la gouvernance on-chain : registrar n°5 sur Polkadot et n°7 sur Kusama. Le service vérifie les champs d'identité déclarés on-chain, inscrit le jugement correspondant sur la People Chain, délivre les noms d'utilisateur .id et publie l'annuaire de toutes les identités vérifiées. Auparavant, exploitation de nœuds validateurs sur le consensus NPoS de Polkadot pendant environ deux ans, aujourd'hui arrêtée.",
+      "url": "https://dotid.app",
       "image": "assets/img/logos/polkadot.png", 
       "tags": ["Blockchain", "Infrastructure", "Administration système et réseau"]
     }
