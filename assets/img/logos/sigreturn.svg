@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <rect width="256" height="256" rx="56" fill="#0e0d0a"/>
-  <path d="M64 64 H192 V144 L144 192 H64 Z" fill="#f7f4ee"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="256" height="256"><!-- bande amincie de 0,5 unite sur 32 : une forme claire sur fond sombre parait plus grosse qu'une forme sombre de meme geometrie. Le cadrage est celui du positif, a l'identique : le recadrer annulerait la compensation. --><rect width="32" height="32" fill="#101216"/><g transform="translate(4.65 4.65) scale(0.7095)"><path fill="#f7f7f5" d="M0.67 7.47L11.77 17.34L22.88 7.47L18.58 2.64L11.77 8.69L4.96 2.64Z"/><path fill="#f7f7f5" d="M13.42 29.36L20.23 23.31L27.04 29.36L31.33 24.53L20.23 14.66L9.12 24.53Z"/></g></svg>
