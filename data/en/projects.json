@@ -25,15 +25,15 @@
       "name": "Personal Blog",
       "description": "Personal cybersecurity blog: various articles, public talks, and entrepreneurial activities.",
       "url": "https://sigreturn.com/blog/",
-      "image": "assets/img/logos/ech0.png",
+      "image": "assets/img/logos/sigreturn.svg",
       "tags": ["Blog", "Cybersecurity"]
     },
     {
       "name": "Polkadot Validators & Identity Registrar",
       "description": "dotID, an independent identity registrar for the Polkadot and Kusama networks, built and operated by Sigreturn Labs. Its registrar seats and username authority were granted by on-chain governance, as registrar #5 on Polkadot and #7 on Kusama. It verifies the identity fields an account has set on-chain, records the corresponding judgement on the People Chain, issues .id usernames and publishes a directory of every verified identity. Previously, operation of validator nodes on the Polkadot NPoS consensus for about two years, since stopped.",
       "url": "https://dotid.app",
-      "image": "assets/img/logos/polkadot.png",
-      "tags": ["Blockchain", "Infrastructure", "System and Network Administration"]
+      "image": "assets/img/logos/dotid.svg",
+      "tags": ["Blockchain", "Infrastructure", "Identity"]
     }
   ]
 }
